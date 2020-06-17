@@ -5,8 +5,7 @@ Takes as arbitrary input of an ICS file and start date and generates output: ICS
 
 Packages: I used several python packages to create this- [icalendar](https://pypi.org/project/icalendar/), pytz, and datetime, which you might need to install.  A bulk of the code utilizes the icalendar library. 
 
-Directions for running:
-
+#Directions for running:
 
 1. Download files to computer and unzip
 2. Run iscShifter.py in preffered IDE or other method
