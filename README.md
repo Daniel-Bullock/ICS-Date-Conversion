@@ -3,6 +3,8 @@ Takes as arbitrary input of an ICS file and start date and generates output: ICS
 
 (note: unfortunately currently the only way to run the program is to download the program, working on a fix)
 
+Packages: I used several python packages to create this- [icalendar](https://pypi.org/project/icalendar/), pytz, and datetime, which you might need to install.  A bulk of the code utilizes the icalendar library. 
+
 Directions for running:
 
 
