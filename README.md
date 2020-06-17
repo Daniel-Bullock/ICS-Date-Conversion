@@ -7,7 +7,7 @@ Directions for running:
 
 
 1. Download files to computer and unzip
-2. Run iscShifter.py
-3. Input the input calendar in format 'input_calendar.ics'
-4. Input year, month, and date
+2. Run iscShifter.py in preffered IDE or other method
+3. Input the input calendar in format 'input_calendar.ics' to console
+4. Input year, month, and date to console
 5. Output will be in unzipped folder.
