@@ -29,24 +29,15 @@ def file_summer_page():
         <html>
             <!<link rel="stylesheet" link href="/static/css/dateformat.css">
             <link rel="stylesheet" link href="/static/css/dateformat.css">
-
             <div class="one">
-
-                <p style = "font-size:30px">Select the calendar file you want to edit and the new start date you want to shift to. Files typically end in .ics or iCalendar.</p>
+                <p style = "font-size:30px">Select the calendar file you want to edit and the new start date you want to shift to. <br>Files typically end in .ics or iCalendar.</p>
                 <form method="post" action="." enctype="multipart/form-data">
                 <p><input type="file" name="input_file" /></p>
-
-                <label for="start">Start date:</label>
+                <label for="start">Input start date</label>
+                <br>
                 <input type="date" id="start" name="input_date">
-
                 <p><input type="submit" value="Process the file" /></p>
                 </form>
-
             <div>
-
-
-
-
 </html>
-
-    '''
+'''
