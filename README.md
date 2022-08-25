@@ -1,7 +1,7 @@
 # ICS Date Shifter
 Takes as arbitrary input of an ICS file and start date and generates output: ICS file that is shifted such that the first calendar event is the new input date and the rest of the events follow accordingly to the shift amount.
 
-There is a web application and console version. Link to the web application version is [here](http://danielbullock.pythonanywhere.com/).
+There is a web application and console version. Link to the web application version is [here](https://dbullock.pythonanywhere.com/).
 
 
 Packages: I used several python packages to create this- [icalendar](https://pypi.org/project/icalendar/), pytz, and datetime, which you might need to install.  A bulk of the code utilizes the icalendar library. 
